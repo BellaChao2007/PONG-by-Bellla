@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    background: #000;
+    color: #fff;
+    font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial;
+  }
+  
+  .wrap {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  
+  .hud {
+    width: 800px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    opacity: 0.9;
+  }
+  
+  .title {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+  }
+  
+  .tips {
+    font-size: 13px;
+    opacity: 0.8;
+  }
+  
+  .stage {
+    width: 800px;
+    height: 800px;
+    outline: 1px solid rgba(255,255,255,0.15);
+  }
+  
